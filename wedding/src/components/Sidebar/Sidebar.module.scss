@@ -1,6 +1,6 @@
 
 .primary-nav-container {
-    background-color: #a992e0;
+    background-color: #FFCE33;
 }
 
 .primary-nav {
@@ -9,21 +9,40 @@
     height: 28px;
 }
 
-.logo {
-    &:hover {}
+// .logo {
+//     &:hover {}
+// }
+
+.nav-pages {
+    // flex-grow: 1;
+    // display: flex;
+    // align-items: center;
+    // list-style: none;
+    // margin:0;
+    list-style-type: none;
+    position:sticky;
+    // width:100%;
+    top:0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFCE33;
 }
 
-.nav-page {
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    list-style: none;
-    margin:0;
+.li-top {
+    float: left;
+    // line-height: 1;
+    // margin-right: 12px
+    border-radius: 2px;
+    border: 1px solid #e7e7e7;
+    display: block;
+    color: #aabbcc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-
-.li {
-    line-height: 1;
-    margin-right: 12px
+.active {
+    background-color: #E85A0A;
 }
 
 .nav-link {

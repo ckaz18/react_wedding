@@ -4,20 +4,29 @@ import styles from "./Sidebar.module.scss";
 
 const Sidebar = () => {
     return (
-        <nav className={styles["primary-nav-container"]}>
-        <div className={styles["primary-nav"]}>
-        <NavLink to="/home">
+        // className={styles["primary-nav-container"]}
+        <nav className={styles["primary-nav"]}>
+        {/* <div>  */}
+            {/*  className={styles["primary-nav"]} */}
+        {/* <NavLink to="/home">
         Danielle and Billy
-        </NavLink>
+        </NavLink> */}
         <ul className={styles["nav-pages"]}>
-            <li>
-                <NavLink to="/registry" className={styles["nav-link"]}>Registry</NavLink>
+            <li className={styles["li-top", "active"]}>
+                <NavLink to="/registry">Registry</NavLink>
+                {/*  className={styles["nav-link"]} */}
             </li>
             
-            <li>
-                <NavLink to="/about" className={styles["nav-link"]}>About</NavLink>
+            <li  className={styles["li-top"]}>
+                <NavLink to="/about">About</NavLink>
             </li>
-        </ul></div></nav>
+            
+            <li className={styles["li-top"]}>
+                <NavLink to="/info" >Info</NavLink>
+            </li>
+        </ul>
+        {/* </div> */}
+        </nav>
     );
 };
 

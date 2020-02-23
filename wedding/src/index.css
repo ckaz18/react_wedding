@@ -7,6 +7,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.wedding-yellow {
+  color: #FFCE33;
+}
+.wedding-blue {
+  color: #0CA489;
+}
+
+.wedding-pink {
+  color: #F1135D
+}
+
+.wedding-orange {
+  color: #E85A0A;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
