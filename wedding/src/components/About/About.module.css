@@ -1,0 +1,15 @@
+
+.main {
+    margin-top: 45px;
+}
+
+.aboutFont {
+    font-size: 1.2rem;
+}
+
+.rotateImage {
+    transform: rotate(90deg);
+    height: 10rem;
+    width: 13rem;
+    margin:1rem;
+}
