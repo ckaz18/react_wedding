@@ -3,4 +3,4 @@ Wedding website for Danielle and Billy
 
 
 ### Start
-`yarn start`
+`yarn start` from inside the wedding directory

@@ -15,7 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Info}/>
           <Route path="/registry" component={Registry}/>
-          <Router path="/about" component={About}/>
+          <Route path="/about" component={About}/>
           <Redirect from="*" to="/"/>
         </Switch>
         </BrowserRouter>
