@@ -7,21 +7,26 @@ import {
 import Info from "./Info"
 import Registry from "./Registry"
 
-class Main extends Component {
-    render () {
-        return (
-            <div>
-                <h1>Danielle Shriver and Billy Askew</h1>
-                <ul className="header">
-                    <li>
-                        <NavLink to="/">Info</Navlink>
-                    </li>
-                    <li>
-                        <NavLink to="/registry">Registry</Navlink>
-                    </li>
-                </ul>
+const Main = () => {
+    return (
+        <div>
+            <h1>Danielle Shriver and Billy Askew</h1>
+            <ul className="header">
+                
+                <li>
+                    <NavLink to="/about">About</Navlink>
+                </li>
+                <li>
+                    <NavLink to="/">Info</Navlink>
+                </li>
+                <li>
+                    <NavLink to="/registry">Registry</Navlink>
+                </li>
+            </ul>
 
-            </div>
-        )
-    }
-}
+        </div>
+    );
+};
+
+
+export default (Main);

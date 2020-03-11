@@ -7,14 +7,10 @@
     display: flex;
     align-items: center;
     height: 28px;
-    
+    margin-top: 1rem;
     position:sticky;
     top:0;
 }
-
-// .logo {
-//     &:hover {}
-// }
 
 .nav-pages {
     // flex-grow: 1;
@@ -28,6 +24,8 @@
     padding: 0;
     overflow: hidden;
     background-color: #FFCE33;
+    background-image: url(../../images/mexican_white.png);
+  
 }
 
 .li-top {
@@ -42,10 +40,15 @@
     padding: 14px 16px;
     text-decoration: none;
 }
-.active {
-    background-color: #E85A0A;
+
+.li-top:active {
+    color: white;
+    background-color: #F1135D;
 }
 
+.active {
+    color: white;
+}
 .nav-link {
     color: white;
     display: flex;

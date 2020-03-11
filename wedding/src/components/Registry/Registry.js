@@ -4,7 +4,9 @@ import React from "react";
 const Registry = () => {
     return (
         <div>
-            Registry
+            <section className="main">
+                Registry
+            </section>
         </div>
     );
 };

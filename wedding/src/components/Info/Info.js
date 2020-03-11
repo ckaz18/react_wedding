@@ -3,8 +3,8 @@ import React from "react";
 
 const Info = () => {
     return (
-        <div>
-            Info
+        <div >
+            <section className="main">Info</section>
         </div>
     );
 };

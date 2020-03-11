@@ -1,13 +1,13 @@
 import React from 'react'; // { Component } 
 // import logo from './logo.svg';
-import {BrowserRouter, Redirect, Router, Switch, Route} from "react-router-dom"; 
+import {BrowserRouter, Redirect, Switch, Route} from "react-router-dom"; 
 import './App.css';
 import Info from "./components/Info/Info";
 import Registry from "./components/Registry/Registry";
 import About from "./components/About/About";
 import Sidebar from "./components/Sidebar/Sidebar";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
@@ -19,9 +19,6 @@ function App() {
           <Redirect from="*" to="/"/>
         </Switch>
         </BrowserRouter>
-      {/* <Sidebar></Sidebar>
-      <header className="App-header">
-      </header> */}
     </div>
   );
 }

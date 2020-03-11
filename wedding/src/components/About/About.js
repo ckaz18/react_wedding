@@ -5,7 +5,7 @@ import estes from "../../images/estes.png";
 const About = () => {
     return (
         <div>
-            <section className={styles.main} id="main" data-section="about">
+            <section className="main" id="main" data-section="about">
             About
             <h3>Danielle Shriver & Billy Askew</h3>
             <div className={styles.aboutFont}>
