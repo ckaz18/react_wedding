@@ -27,12 +27,17 @@ const Sidebar = () => {
             <li>
                 <NavLink to="/registry">Registry</NavLink>
             </li>
-            
             <li>
                 <NavLink to="/about">About</NavLink>
             </li>
             <li>
                 <NavLink to="/info" >Info</NavLink>
+            </li>
+            <li>
+                <NavLink to="/photos" >Photos</NavLink>
+            </li>
+            <li>
+                <NavLink to="/wedding-party" >Wedding Party</NavLink>
             </li>
         </ul>
         </nav>

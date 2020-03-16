@@ -6,13 +6,14 @@ import Info from "./components/Info/Info";
 import Registry from "./components/Registry/Registry";
 import About from "./components/About/About";
 import Sidebar from "./components/Sidebar/Sidebar";
+import styles from "./App.css";
 
 const App = () => {
   return (
     <div className="App">
       <div className="main-header">
         <h3 className="main">Dani & Billy</h3>
-        <div style={{height:"2.5rem", marginTop:"-2rem"}} id="main-inner">
+        <div style={{height:"2.5rem", marginTop:"2.5rem", position:"fixed", top:0, width: "100%"}} id="main-inner">
             June 6th, 2020 - {"\n"}
             Sedalia CO
         </div>

@@ -12,7 +12,6 @@ const Main = () => {
         <div>
             <h1>Danielle Shriver and Billy Askew</h1>
             <ul className="header">
-                
                 <li>
                     <NavLink to="/about">About</Navlink>
                 </li>

@@ -15,7 +15,13 @@ body {
 }
 
 .main {
-  margin-top: 30px;
+  margin-top: 0rem;
+  margin-bottom: -1rem;
+  position: fixed;
+  height: 3rem;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
 }
 
 .wedding-yellow {
