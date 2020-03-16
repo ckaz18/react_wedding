@@ -3,22 +3,17 @@
     float: left;
     clear: none;
     width: 100%;
-    /* height: 200px; */
     padding-top: 14rem;
 }
 
 .child-1 {
     width: 50%;
     height:100%;
-    /* padding-top: 2rem; */
-    /* float: left; */
-    /* background: url(../../images/estes.png) rotate(90deg) no-repeat center center fixed; */
-}
+    }
 
 .child-2 {
     color: white;
     width: 10rem;
-    /* float: right; */
 }
 
 .aboutFont {

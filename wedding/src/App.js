@@ -13,7 +13,7 @@ const App = () => {
     <div className="App">
       <div className="main-header">
         <h3 className="main">Dani & Billy</h3>
-        <div style={{height:"2.5rem", marginTop:"2.5rem", position:"fixed", top:0, width: "100%"}} id="main-inner">
+        <div style={{height:"2.5rem", marginTop:"2.5rem", position:"fixed", top:0, width: "100%", zIndex:"99"}} id="main-inner">
             June 6th, 2020 - {"\n"}
             Sedalia CO
         </div>
