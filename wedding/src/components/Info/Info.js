@@ -4,7 +4,7 @@ import React from "react";
 const Info = () => {
     return (
         <div >
-            <section className="main">Info</section>
+            {/* <section className="main">Info</section> */}
         </div>
     );
 };

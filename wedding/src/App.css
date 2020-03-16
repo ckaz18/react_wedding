@@ -1,6 +1,19 @@
-.App {
+.App { 
+  margin-top: -2rem;
   text-align: center;
 }
+
+.main-header {
+  margin-top: -1 rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  padding: 16px;
+}
+
 
 .App-logo {
   height: 40vmin;

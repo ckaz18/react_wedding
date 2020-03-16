@@ -10,6 +10,13 @@ import Sidebar from "./components/Sidebar/Sidebar";
 const App = () => {
   return (
     <div className="App">
+      <div className="main-header">
+        <h3 className="main">Dani & Billy</h3>
+        <div style={{height:"2.5rem", marginTop:"-2rem"}} id="main-inner">
+            June 6th, 2020 - {"\n"}
+            Sedalia CO
+        </div>
+      </div>
       <BrowserRouter>
         <Sidebar/>
         <Switch>
