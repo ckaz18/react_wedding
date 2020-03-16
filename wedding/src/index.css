@@ -4,18 +4,12 @@ body {
   /* color: white; */
   font-size: x-large;
   background-color: #0eb5ad;
-  /* background-image: url(./images/wood_grain_background.png); */
-  /* background-repeat: no-repeat;
-  width: 100%;
-  height: 100%; */
-  background: url(./images/wood_grain_background.png) no-repeat center center fixed; 
+  /* background: url(./images/wood_grain_background.png) no-repeat center center fixed;  */
+  background: url(./images/tree-rings.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', */
-  /* 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', */
-  /* sans-serif */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -23,7 +17,6 @@ body {
 .main {
   margin-top: 30px;
 }
-
 
 .wedding-yellow {
   color: #FFCE33;
