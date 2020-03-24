@@ -22,25 +22,27 @@ const Sidebar = () => {
     //     </nav>
     // );
     return (
-        <nav className={styles["primary-nav-2"]}>
-        <ul className={styles["primary-nav-2"]}>
-            <li>
-                <NavLink to="/registry">Registry</NavLink>
-            </li>
-            <li>
-                <NavLink to="/about">About</NavLink>
-            </li>
-            <li>
-                <NavLink to="/info" >Info</NavLink>
-            </li>
-            <li>
-                <NavLink to="/photos" >Photos</NavLink>
-            </li>
-            <li>
-                <NavLink to="/wedding-party" >Wedding Party</NavLink>
-            </li>
-        </ul>
-        </nav>
+        <div>
+            <nav className={styles["primary-nav-2"]}>
+            <ul className={styles["primary-nav-2"]}>
+                <li>
+                    <NavLink to="/registry">Registry</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/about">About</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/info" >Info</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/photos" >Photos</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/wedding-party" >Wedding Party</NavLink>
+                </li>
+            </ul>
+            </nav>
+        </div>
     );
 };
 
