@@ -25,6 +25,25 @@ body {
   z-index: 99;
 }
 
+.header-container {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+
+.header {
+  height: 60px;
+  /* border: 1px solid #000000; */
+  width: 960px;
+  margin: 0px auto;
+}
+
+.content {
+  width: 960px;
+  height: 9000px;
+  margin: 9rem auto;
+}
+
 .wedding-yellow {
   color: #FFCE33;
 }

@@ -1,3 +1,4 @@
+
 .primary-nav-container {
     background-color: #FFCE33;
 }
@@ -16,6 +17,36 @@
     top: 0;
     width: 100%;
     margin-top: 5rem;
+}
+
+.sidebar-container {
+    background-color: #333;
+    background-image: linear-gradient(
+        rgba(252, 252, 252, 0.4),
+        rgba(252, 252, 252, 0.4)
+      ), url(../../images/mexican_white.png);
+    height: 2.5rem;
+    top: 0px auto;
+    margin: 4.5rem auto;
+}
+
+.sidebar-container a {
+    float: left;
+    display: block;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 0 1.4rem;
+    text-decoration: none;
+    font-size: 1.4rem; 
+}
+.sidebar-container ul {
+    padding-left: 20%;
+}
+
+.sidebar-container li {
+    float: left;
+    list-style: none;
 }
 
 .primary-nav-2 ul {
