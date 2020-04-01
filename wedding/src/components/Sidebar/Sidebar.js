@@ -42,19 +42,19 @@ const Sidebar = () => {
             </div>
             <ul className={styles["navigation-pages"]}>
                 <li>
-                    <NavLink to="/registry">Registry</NavLink>
+                    <NavLink to="/registry" className={styles["nav-link"]}>Registry</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/about">About</NavLink>
+                    <NavLink to="/about" className={styles["nav-link"]}>About</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/info" >Info</NavLink>
+                    <NavLink to="/info" className={styles["nav-link"]}>Info</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/photos" >Photos</NavLink>
+                    <NavLink to="/photos" className={styles["nav-link"]}>Photos</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/wedding-party" >Wedding Party</NavLink>
+                    <NavLink to="/wedding-party" className={styles["nav-link"]}>Wedding Party</NavLink>
                 </li>
             </ul>
         </nav>
