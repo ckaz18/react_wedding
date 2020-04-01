@@ -4,7 +4,6 @@ import estes from "../../images/estes.png";
 
 const About = () => {
     return (
-        <div className="header-container">
             <div className="content">
                 <div className={styles.parent} id="parent">
                     {/* <section className="main" id="main" data-section="about">
@@ -21,7 +20,6 @@ const About = () => {
                     <div className="child-2">Hello</div>
                 </div>
             </div>
-        </div>
     );
 };
 

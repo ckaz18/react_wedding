@@ -19,14 +19,6 @@ const App = () => {
       </div> */}
   return (
       <div className="App">
-        <div className="header-container">
-          <div className="header">
-              <b>Dani & Billy</b>
-            <div style={{fontSize:"1rem"}}>
-              06.20.20 -  Sedalia CO
-            </div>
-          </div>
-        </div>
       <BrowserRouter>
         <Sidebar/>
         <Switch>

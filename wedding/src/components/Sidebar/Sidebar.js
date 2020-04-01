@@ -26,30 +26,38 @@ const Sidebar = () => {
             </ul>
             </nav>
         </div> */}
+
+
+        {/* <div className="header-container"> 
+            <div className="header"> */}
     return (
-        <div className="header-container">
-            <div className="header">
-                <nav className={styles["sidebar-container"]}>
-                <ul className={styles["sidebar-container"]}>
-                    <li>
-                        <NavLink to="/registry">Registry</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/about">About</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/info" >Info</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/photos" >Photos</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/wedding-party" >Wedding Party</NavLink>
-                    </li>
-                </ul>
-                </nav>
+        <nav className={styles["nav-container"]}>
+            <div className={`container ${styles["nav"]}`}>
+                <div className="header">
+                    <b>Dani & Billy</b>
+                    <div style={{fontSize:"1rem"}}>
+                    06.20.20 -  Sedalia CO
+                    </div>
+                </div>
             </div>
-        </div>
+            <ul className={styles["navigation-pages"]}>
+                <li>
+                    <NavLink to="/registry">Registry</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/about">About</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/info" >Info</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/photos" >Photos</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/wedding-party" >Wedding Party</NavLink>
+                </li>
+            </ul>
+        </nav>
     );
 };
 

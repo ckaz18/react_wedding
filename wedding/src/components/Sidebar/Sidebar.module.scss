@@ -127,3 +127,36 @@
 .nav-active {
     border-bottom-color: blueviolet;
 }
+
+
+.nav-container {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 5.5rem;
+}
+
+.navigation-pages {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 3rem;
+    margin: 0rem;
+    padding-left: 20%;
+    background-color: #333;
+    background-image: linear-gradient(
+        rgba(252, 252, 252, 0.4),
+        rgba(252, 252, 252, 0.4)
+      ), url(../../images/mexican_white.png);
+
+    li {
+        line-height: 1;
+        margin-right: 3.2rem;
+    }
+}
