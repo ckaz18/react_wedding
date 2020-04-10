@@ -1,11 +1,27 @@
+.wedding-yellow {
+  color: #FFCE33;
+}
+.wedding-blue {
+  color: #0CA489;
+}
+
+.wedding-pink {
+  color: #F1135D
+}
+
+.wedding-orange {
+  color: #E85A0A;
+}
+
 body {
   margin: 0;
   font-family: "blacksword";
   /* color: white; */
   font-size: x-large;
-  background-color: #0eb5ad;
+  background-color: #0CA489;
+  color: #FFCE33;
   /* background: url(./images/wood_grain_background.png) no-repeat center center fixed;  */
-  background: url(./images/tree-rings.png) no-repeat center center fixed;
+  /* background: url(./images/tree-rings.png) no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -43,21 +59,6 @@ body {
   width: 960px;
   height: 9000px;
   margin: 9rem auto;
-}
-
-.wedding-yellow {
-  color: #FFCE33;
-}
-.wedding-blue {
-  color: #0CA489;
-}
-
-.wedding-pink {
-  color: #F1135D
-}
-
-.wedding-orange {
-  color: #E85A0A;
 }
 
 code {

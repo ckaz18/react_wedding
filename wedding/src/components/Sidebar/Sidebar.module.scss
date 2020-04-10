@@ -1,9 +1,10 @@
 .sidebar-container {
-    background-color: #333;
-    background-image: linear-gradient(
-        rgba(252, 252, 252, 0.5),
-        rgba(252, 252, 252, 0.5)
-      ), url(../../images/mexican_white.png);
+    background-color: #0CA489;
+    color: #FFCE33;
+    // background-image: linear-gradient(
+    //     rgba(252, 252, 252, 0.5),
+    //     rgba(252, 252, 252, 0.5)
+    //   ), url(../../images/mexican_white.png);
     height: 2.5rem;
     top: 0px auto;
     margin: 4.5rem auto;
@@ -13,7 +14,8 @@
     float: left;
     display: block;
     font-weight: bold;
-    color: black;
+    // color: black;
+    color: #FFCE33;
     text-align: center;
     padding: 0 1.4rem;
     text-decoration: none;
@@ -53,20 +55,22 @@
     justify-content: center;
     align-items: center;
     border-bottom: 0.5rem solid transparent;
-    border-radius: 1.3rem;
+    // border-radius: 1.3rem;
     transition: 0.3s border-color ease;
     font-size: 1.4rem;
     height:3.4rem;
+    // color: #FFCE33;
+    color: white;
 
     &:hover {
-        color: orange;
+        color: #E85A0A;
         text-decoration: none;
-        border-bottom-color: orange;
+        border-bottom-color:#E85A0A;;
     }
 }
 
 .nav-active {
-    border-bottom-color: blueviolet;
+    border-bottom-color: white;
 }
 
 
@@ -90,11 +94,13 @@
     height: 3rem;
     margin: 0rem;
     padding-left: 20%;
-    background-color: #333;
-    background-image: linear-gradient(
-        rgba(252, 252, 252, 0.5),
-        rgba(252, 252, 252, 0.5)
-      ), url(../../images/mexican_white.png);
+    
+    color: white;
+    background-color: #F1135D;
+    // background-image: linear-gradient(
+    //     rgba(252, 252, 252, 0.5),
+    //     rgba(252, 252, 252, 0.5)
+    //   ), url(../../images/mexican_white.png);
 
     li {
         line-height: 1;
